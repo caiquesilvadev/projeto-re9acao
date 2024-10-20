@@ -12,7 +12,6 @@ body {
     height: 100vh;
     background-color: #0e2351; /* Cor de fundo da página */
 }
-
 :root {
     --color-branco: white;
     --my-linear: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgba(51,132,254,1) 100%);/* gradiente no card esquerdo */
@@ -20,7 +19,6 @@ body {
 .color-branco {
     background: var(--my-linear);
 }
-
 .container {
     display: flex;
     width: 1100px;
@@ -34,6 +32,8 @@ body {
 .left {
     flex: 2;
     background: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgba(51,132,254,1) 100%);/* gradiente no card esquerdo */    display: flex;
+    background: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgba(51,132,254,1) 100%);/* gradiente no card esquerdo */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
