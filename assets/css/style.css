@@ -14,9 +14,9 @@ body {
 }
 :root {
     --color-branco: white;
-    --my-linear: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgba(51,132,254,1) 100%);/* gradiente no card esquerdo */
+    --my-linear: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgb(51, 139, 254) 100%);/* gradiente no card esquerdo */
 }
-.color-branco {
+.color-linear {
     background: var(--my-linear);
 }
 .container {
@@ -31,8 +31,7 @@ body {
 
 .left {
     flex: 2;
-    background: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgba(51,132,254,1) 100%);/* gradiente no card esquerdo */    display: flex;
-    background: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgba(51,132,254,1) 100%);/* gradiente no card esquerdo */
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +52,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
 }
 
 .icon_palmas img {
@@ -65,11 +63,12 @@ body {
 }
 .login-form > a:last-child {
     text-align: center;
+    color: #ccc;
 }
 .login-form h2 {
     font-size: 24px;
     font-weight: bolder;
-    color: #0E2351;
+    color: white;
 }
 
 .login-form p {
@@ -92,7 +91,6 @@ body {
     background-color: #083CB2;
     color: white;
     border: none;
-    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
@@ -111,8 +109,8 @@ body {
 }
 
 .login-form a span {
-    color: #1f4287;
-    font-weight: bold;
+    color: #ffffff;
+    font-weight: bolder;
 }
 
 .login-form a:hover span {
@@ -121,6 +119,9 @@ body {
 
 /*MOBILE - RESPONSIVIDADE DO SISTEMA*/
 @media(max-width: 560px) {
+        body {
+            background-color: white;
+        }
         .container {
             display: flex;
             width: 100%;
