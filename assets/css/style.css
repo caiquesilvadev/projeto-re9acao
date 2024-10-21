@@ -1,3 +1,8 @@
+:root {
+    --color-branco: white;
+    --my-linear: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgb(51, 139, 254) 100%);/* gradiente no card esquerdo */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +19,7 @@ body {
     background-color: #0e2351; /* Cor de fundo da página */
     overflow: hidden;
 }
-:root {
-    --color-branco: white;
-    --my-linear: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgb(51, 139, 254) 100%);/* gradiente no card esquerdo */
-}
+
 .info_ani{
     text-align: center;
 }
@@ -87,8 +89,9 @@ body {
 
 .login_form p {
     font-size: 14px;
-    margin-bottom: 20px;
-    color: #555;
+    color: white;
+    line-height: 25px;
+    padding: 0 0 10px 0;
 }
 
 .login_form input {
