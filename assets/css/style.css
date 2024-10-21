@@ -18,6 +18,9 @@ body {
     --color-branco: white;
     --my-linear: linear-gradient(-300deg, rgba(8,60,178,1) 0%, rgb(51, 139, 254) 100%);/* gradiente no card esquerdo */
 }
+.info_ani > h1, p {
+    color: #03246A;    
+}
 .color-linear {
     background: var(--my-linear);
 }
