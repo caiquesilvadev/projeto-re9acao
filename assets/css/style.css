@@ -151,6 +151,9 @@ body {
         .login_form {
             width: 100%;
         }
+        .login_form p {
+            font-size: 18px;
+        }
         .login_form h2 {
             padding: 10px 0 10px 0;
         }
