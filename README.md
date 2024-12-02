@@ -35,7 +35,7 @@ O projeto **Integração** visa, de maneira ágil, intuitiva e humanizada, unir 
 - Mobile First (Abordagem de design responsivo, priorizando dispositivos móveis).
 - Próximas Features (Adicionar o Gsap)
 
-## Hospedagem
+## Protótipo Online
 Este projeto está hospedado no githubpages para representar o sistema online. Você pode
 acessar o projeto clicando nesse link azul [re9acao](https://caiquesilvadev.github.io/projeto-re9acao/assets/01_animation.html)
 
