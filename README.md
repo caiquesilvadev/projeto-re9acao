@@ -1,6 +1,6 @@
-<div align="center">
-![Logo do Projeto](public/img/Cover.jpg)
-</div>
+<p align="center">
+  <img src="public/img/Cover.jpg" alt="Logo do Projeto"/>
+</p>
 
 # PROJETO - INTEGRAÇÃO
 
