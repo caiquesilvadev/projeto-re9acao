@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../projeto-integracao-react/public/img/Cover.jpg" alt="Logo do Projeto"/>
+![Logo do Projeto](public/img/Cover.jpg)
 </div>
 
 # PROJETO - INTEGRAÇÃO
