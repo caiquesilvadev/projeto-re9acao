@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/img/Cover.jpg" alt="Logo do Projeto"/>
+<img src="../projeto-integracao-react/public/img/Cover.jpg" alt="Logo do Projeto"/>
 </div>
 
 # PROJETO - INTEGRAÇÃO
